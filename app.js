@@ -10,9 +10,7 @@ var uniqueImages = []
 var totalClicks = 0
 var allImages = []
 var viewsForChart
-
 var clicksForChart
-
 var names = [
     'bag',
     'banana',
@@ -67,11 +65,9 @@ function Image(name, path) {
 for (let i = 0; i < names.length; i++) {
     new Image(names[i], paths[i])
 }
-
 function randomNumber() {
     return Math.floor(Math.random() * allImages.length)
 }
-
 randomImage()
 function randomImage() {
     while (uniqueImages.length < 6) {
@@ -190,7 +186,6 @@ function chart() {
         }
     });
 }
-
 function storage() {
     localStorage.setItem('Images', JSON.stringify(allImages))
     JSON.parse(localStorage.getItem('Images'))
