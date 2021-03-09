@@ -17,6 +17,8 @@ This project is all about learning how to render images based on certain logical
 
 5. Using addEventListener which will help to understand callbacks and interactivity.
 
+6. Using Local Storage as the first persistence layer.
+
 # Instructions for installation and use
 
 This is a free code and can be used by anyone once I am done coding it :) 
